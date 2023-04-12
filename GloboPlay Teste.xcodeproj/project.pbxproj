@@ -13,6 +13,7 @@
 		E648B19829E6401100DB0B20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E648B19729E6401100DB0B20 /* Preview Assets.xcassets */; };
 		E648B19F29E6410D00DB0B20 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648B19E29E6410D00DB0B20 /* SplashScreen.swift */; };
 		E648B1A129E6417D00DB0B20 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648B1A029E6417D00DB0B20 /* ViewModel.swift */; };
+		E648B1A329E647A600DB0B20 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648B1A229E647A600DB0B20 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E648B19729E6401100DB0B20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E648B19E29E6410D00DB0B20 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		E648B1A029E6417D00DB0B20 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E648B1A229E647A600DB0B20 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E648B19E29E6410D00DB0B20 /* SplashScreen.swift */,
 				E648B1A029E6417D00DB0B20 /* ViewModel.swift */,
 				E648B19229E6400F00DB0B20 /* ContentView.swift */,
+				E648B1A229E647A600DB0B20 /* CustomTabBar.swift */,
 				E648B19429E6401100DB0B20 /* Assets.xcassets */,
 				E648B19629E6401100DB0B20 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E648B19F29E6410D00DB0B20 /* SplashScreen.swift in Sources */,
+				E648B1A329E647A600DB0B20 /* CustomTabBar.swift in Sources */,
 				E648B19329E6400F00DB0B20 /* ContentView.swift in Sources */,
 				E648B1A129E6417D00DB0B20 /* ViewModel.swift in Sources */,
 				E648B19129E6400F00DB0B20 /* GloboPlay_TesteApp.swift in Sources */,
