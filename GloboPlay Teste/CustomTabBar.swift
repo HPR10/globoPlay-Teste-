@@ -1,23 +1,16 @@
-//
-//  CustomTabBar.swift
-//  GloboPlay Teste
-//
-//  Created by HP on 11/04/23.
-//
-
 import SwiftUI
 
 struct CustomTabBar: View {
-    
+
     @State var selectTab = "2"
-    
+
     init() {
         UITabBar.appearance().isHidden = true
     }
-    
+
     var body: some View {
-        
-        
+
+
         ZStack(alignment: .bottom) {
             TabView(selection: $selectTab) {
                 Text("Inicio")
@@ -25,7 +18,7 @@ struct CustomTabBar: View {
                     .tabItem {
                         Image(systemName: "house")
                         Text("Inicio")
-                        
+
                     }
                 Text("Minha Lista")
                     .tag("2")
@@ -43,8 +36,8 @@ struct CustomTabBar: View {
                         Text("Inicio")
                     }
                 }
-                
-                
+
+
                 Button {
                     selectTab = "2"
                 } label: {

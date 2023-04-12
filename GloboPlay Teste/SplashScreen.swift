@@ -14,7 +14,7 @@ struct SplashScreen: View {
 
     var body: some View {
         if isActive {
-            ContentView()
+            HomeView()
         } else {
             VStack {
                 VStack {

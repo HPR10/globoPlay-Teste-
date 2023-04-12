@@ -8,23 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		E648B19129E6400F00DB0B20 /* GloboPlay_TesteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648B19029E6400F00DB0B20 /* GloboPlay_TesteApp.swift */; };
-		E648B19329E6400F00DB0B20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648B19229E6400F00DB0B20 /* ContentView.swift */; };
+		E648B19329E6400F00DB0B20 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648B19229E6400F00DB0B20 /* HomeView.swift */; };
 		E648B19529E6401100DB0B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E648B19429E6401100DB0B20 /* Assets.xcassets */; };
 		E648B19829E6401100DB0B20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E648B19729E6401100DB0B20 /* Preview Assets.xcassets */; };
 		E648B19F29E6410D00DB0B20 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648B19E29E6410D00DB0B20 /* SplashScreen.swift */; };
 		E648B1A129E6417D00DB0B20 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648B1A029E6417D00DB0B20 /* ViewModel.swift */; };
-		E648B1A329E647A600DB0B20 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648B1A229E647A600DB0B20 /* CustomTabBar.swift */; };
+		E6B21B6229E6FCD900A363C1 /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B21B6129E6FCD900A363C1 /* MyListView.swift */; };
+		E6B21B6429E7083E00A363C1 /* Teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B21B6329E7083E00A363C1 /* Teste.swift */; };
+		E6B21B6629E709F800A363C1 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B21B6529E709F800A363C1 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E648B18D29E6400F00DB0B20 /* GloboPlay Teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GloboPlay Teste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E648B19029E6400F00DB0B20 /* GloboPlay_TesteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloboPlay_TesteApp.swift; sourceTree = "<group>"; };
-		E648B19229E6400F00DB0B20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E648B19229E6400F00DB0B20 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E648B19429E6401100DB0B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E648B19729E6401100DB0B20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E648B19E29E6410D00DB0B20 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		E648B1A029E6417D00DB0B20 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		E648B1A229E647A600DB0B20 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		E6B21B6129E6FCD900A363C1 /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
+		E6B21B6329E7083E00A363C1 /* Teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste.swift; sourceTree = "<group>"; };
+		E6B21B6529E709F800A363C1 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,13 @@
 		E648B18F29E6400F00DB0B20 /* GloboPlay Teste */ = {
 			isa = PBXGroup;
 			children = (
+				E6B21B6329E7083E00A363C1 /* Teste.swift */,
 				E648B19029E6400F00DB0B20 /* GloboPlay_TesteApp.swift */,
 				E648B19E29E6410D00DB0B20 /* SplashScreen.swift */,
 				E648B1A029E6417D00DB0B20 /* ViewModel.swift */,
-				E648B19229E6400F00DB0B20 /* ContentView.swift */,
-				E648B1A229E647A600DB0B20 /* CustomTabBar.swift */,
+				E6B21B6129E6FCD900A363C1 /* MyListView.swift */,
+				E648B19229E6400F00DB0B20 /* HomeView.swift */,
+				E6B21B6529E709F800A363C1 /* CustomTabBar.swift */,
 				E648B19429E6401100DB0B20 /* Assets.xcassets */,
 				E648B19629E6401100DB0B20 /* Preview Content */,
 			);
@@ -146,11 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6B21B6229E6FCD900A363C1 /* MyListView.swift in Sources */,
 				E648B19F29E6410D00DB0B20 /* SplashScreen.swift in Sources */,
-				E648B1A329E647A600DB0B20 /* CustomTabBar.swift in Sources */,
-				E648B19329E6400F00DB0B20 /* ContentView.swift in Sources */,
+				E6B21B6629E709F800A363C1 /* CustomTabBar.swift in Sources */,
+				E648B19329E6400F00DB0B20 /* HomeView.swift in Sources */,
 				E648B1A129E6417D00DB0B20 /* ViewModel.swift in Sources */,
 				E648B19129E6400F00DB0B20 /* GloboPlay_TesteApp.swift in Sources */,
+				E6B21B6429E7083E00A363C1 /* Teste.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
