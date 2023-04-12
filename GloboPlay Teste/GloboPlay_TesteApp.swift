@@ -11,7 +11,7 @@ import SwiftUI
 struct GloboPlay_TesteApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen(splashScreen: "splashScreen")
         }
     }
 }
